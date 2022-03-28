@@ -1,0 +1,224 @@
+*{
+    
+background-image: url("./images/5818437.png' width='216' height='216' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23DA0000' stroke-width='2.5'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%231C0000'%3E%3Ccircle cx='769' cy='229' r='9'/%3E%3Ccircle cx='539' cy='269' r='9'/%3E%3Ccircle cx='603' cy='493' r='9'/%3E%3Ccircle cx='731' cy='737' r='9'/%3E%3Ccircle cx='520' cy='660' r='9'/%3E%3Ccircle cx='309' cy='538' r='9'/%3E%3Ccircle cx='295' cy='764' r='9'/%3E%3Ccircle cx='40' cy='599' r='9'/%3E%3Ccircle cx='102' cy='382' r='9'/%3E%3Ccircle cx='127' cy='80' r='9'/%3E%3Ccircle cx='370' cy='105' r='9'/%3E%3Ccircle cx='578' cy='42' r='9'/%3E%3Ccircle cx='237' cy='261' r='9'/%3E%3Ccircle cx='390' cy='382' r='9'/%3E%3C/g%3E%3C/svg%3E");
+    box-sizing: border-box;
+}
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header .container {
+    overflow:visible;
+    
+    background-color: rgb(165, 0, 0);
+    opacity: 100%;
+    padding-bottom: 15px;
+    text-align:center;
+}
+.titulo,.subtitle{
+    float: left;
+    width:fit-content;
+    text-align: center;
+    font-size: 6vw;
+    color: rgb(255, 255, 255);
+    background: rgb(29, 29, 29);
+    text-align:center;
+    
+}
+.subtitle{
+    float: right;
+    font-size: 2.5vw;
+    padding-top: 2%;
+    align-items: left;
+    padding-bottom: 2%;
+}
+.a{
+    background: rgb(29, 29, 29);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+form{
+    float: left;
+    width: 80%;
+    height:100% ;
+}
+.inputt{
+    width: 100%;
+    height: 100%;
+    border: .5vh solid #ccc;
+    border-radius: 1vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5vw;
+    font-weight:bold;
+    background-color: white;
+    background-image: url('./images/search_icon.png');
+    background-size: 5vh 5vh;
+    background-position: 1vh 1vh;
+    background-repeat: no-repeat;
+    padding: 2vh 2vh 2vh 8vh;
+    margin: 0;
+}
+section{
+    width: 100%;
+}
+div{
+    background: rgba(204, 204, 204, 0);
+}
+.sectionpk,.secsearch {
+    height: 98vh;
+    float:left;
+    padding-left: 18%;
+    padding-top: 2%;
+    padding-right: 18%;
+    background: rgba(32, 26, 26, 0.63);
+}
+.secsearch{
+    height: auto;
+    margin: 0;
+}
+form{
+    background: #ffffff;
+    margin: 0;
+}
+.bottonSearch{
+    margin: 0;
+    height: 8vh;
+    width: 20%;
+    background: rgb(194, 22, 22);
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5vw;
+    font-weight:  800;
+}
+.pokdx{
+    float: center;
+    background-image: url('./images/pkdexx.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #c7c7c700;
+    float: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+.divimage{
+    width: 50%;
+    height: auto;
+    background: rgba(44, 46, 12, 0);
+    float: left;
+}
+.divipoke{
+    width: 100%;
+    height: auto;
+    background: rgba(236, 126, 126, 0);
+    padding: 35% 0% 0% 22%;
+}
+.pokeimg{
+    width: 84%;
+    background: rgba(238, 192, 39, 0);
+    opacity: 75%;
+}
+.divipokename, .divpokestacks{
+    width: 100%;
+    height: auto;
+    background: rgba(63, 14, 14, 0);
+    padding: 15% 45% 9% 24%;
+    align-items: center;
+}
+p{
+    width: 100%;
+    background: rgba(11, 19, 95, 0);
+}
+.pokemonname, .poketipe,.pokefranq,.progresA,.progresB,.textalt,.textpeso{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8vw;
+    color: rgb(231, 123, 0);
+    font-weight:bold;
+    background-color: rgba(0, 255, 255, 0);
+    padding: 9% 0% 0% 0%;
+}
+.divpokestacks{
+    height: 156px;
+    padding: 0% 0% 0% 0%;
+    background-color: rgba(192, 0, 199, 0);
+}
+.poketipe{
+    text-align: left;
+    font-size: .8vw;
+    color: rgb(231, 123, 0);
+    padding: 42% 0% 0% 20%;
+    background: rgba(252, 252, 252, 0);
+}
+.divstack{
+    width: 100%;
+    height: 5.6vW;
+    background: #8a880f00;
+    padding-bottom: 0% 0% 0% 0%;
+}
+
+.progressbar{
+    width: 65%;
+    height: .9vw;
+}
+.progresA,.progresB{
+    width: 100%;
+    margin: 0%;
+    text-align: right;
+    background: rgba(219, 38, 38, 0);
+    padding: 4% 0% 0% 35%;
+}
+.progresB{
+    padding: 4% 31% 0% 0%;
+}
+.textalt{
+    font-size: 0.8vw;
+    padding: 99% 0% 0% 25%;
+}
+.textpeso{
+    font-size: 0.8vw;
+    text-align: left;
+    padding: 99% 0% 0% 20%;
+}
+
+.pokefranq{
+    text-align: left;
+    font-size: 0.8vw;
+    padding: 0% 0% 0% 20%;
+    background: rgba(209, 209, 209, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.namestacks{
+    width: 5%;
+    text-align: center;
+    color: rgb(231, 123, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .8vw;
+    background: rgba(22, 19, 19, 0);
+}
+
+.header nav {
+    height: 100%;
+    width: 100%;
+    display: table;
+    float: center;
+  }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+/* Responsive layout */
+@media (max-width: 1000px) {
+
+    nav,
+    article,
+    .header,
+    .container,
+    section {
+        width: 100%;
+        height: auto;
+        text-align:center;
+
+    }
+}

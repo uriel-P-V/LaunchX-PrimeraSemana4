@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./dex.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <nav class="container"><ul>
+                <li class="titulo"><a class="a">Pokedex</a></li>
+              </ul></nav>
+        </div>
+    </header>
+    <section class="secsearch">
+        <div class="divbus">
+            <form>
+                <input  class="inputt" type="text" id="pokeName" name="pokeName" placeholder="Nombre o número de Pokemon.." >
+            </form>
+            <button onclick="fetchPokemon()" id="boton" class="bottonSearch" >Buscar</button>
+        </div>
+    </section>
+    <section class="sectionpk">
+        <div class="pokdx">
+            <div class="divimage">
+                <div class="divipoke"><img src="./images/saludo.gif" alt="pokemon" id="pokeImg" class="pokeimg" width="500px" height="250px"></div> 
+                <div class="divipokename"><p class="pokemonname" id="pokeNombre">#000 POKEMON</p></div>
+            </div>
+            <div class="divimage">
+                <div class="divpokestacks">
+                    <div>
+                        <p class="poketipe" id="poketipo">TIPO:</p>
+                        <p class="pokefranq" id="pokeablty">HABILIDADES:</p> 
+                    </div>
+                    <div class="divstack">
+                        <div class="divimage">
+                            <p class="progresA">PS:<progress id="stat1" max="255" value="0" class="progressbar"></progress></p>
+                            <p class="progresA">ATK:<progress id="stat2" max="255" value="0" class="progressbar"></progress></p>
+                            <p class="progresA">DEF:<progress id="stat3" max="255" value="0" class="progressbar"></progress></p>
+                        </div>
+                        <div class="divimage">
+                            <p class="progresB">SP:ATK:<progress id="stat4" max="255" value="0" class="progressbar"></progress></p>
+                            <p class="progresB">SP:DEF:<progress id="stat5" max="255" value="0" class="progressbar"></progress></p>
+                            <p class="progresB">SPEED:<progress id="stat6" max="255" value="0" class="progressbar"></progress></p>
+                        </div>
+                    </div>
+                    <div class="divsatck">
+                        <div class="divimage"><p class="textalt" id="alturaP">ALTURA:</p></div>
+                        <div class="divimage"><p class="textpeso" id="peso">PESO:</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+<footer>
+    <script src="./pokeaction.js"></script>
+</footer>
+</html>
